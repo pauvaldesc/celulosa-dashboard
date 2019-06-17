@@ -1,0 +1,331 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="manifest" href="site.webmanifest">
+	<!-- Place favicon.ico in the root directory -->
+	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	
+	
+	<!-- Font Awesome JS -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+	
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  
+  <header>
+  	<button type="button" id="sidebarCollapse" class="btn menuHamburger">
+	    <i class="fas fa-bars"></i>
+	</button>
+  	<div class="container">
+  		<h1><img src="img/arauco.svg" alt="Arauco" /></h1>
+  		<!-- Sidebar  -->
+        <nav id="sidebar">
+            <div id="dismiss">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul class="list-unstyled components">
+				<div class="profile">
+					<div class="imgProfile">
+						
+					</div>
+					<div class="datosProfile">
+						<h3>Nombre Apellido Apellido</h3>
+						<h4>Cargo</h4>
+						<!--<a href="javascript:;">Ver Perfil</a>-->
+					</div>
+				</div>
+                <li><a href="javascript:;" class="active">Camiones</a></li>
+                <li><a href="#">Estado de la planta</a></li>
+                <li><a href="estado-cancha.html">Estado de Cancha</a></li>
+				<li><a href="bitacora.html">Bitácora</a></li>
+            </ul>
+        </nav>
+  		<!-- Sidebar -->
+  	</div>
+  	
+  </header>
+  <section>
+	<div class="container">
+		<div class="updateBC">
+			<ul class="breadcrumb">
+				<li><a href="javascript:;">Tablero Atención</a> /</li>
+				<li><a href="javascript:;">Camiones</a></li>
+			</ul>
+			<p class="lastUpdate"><span>Ultima Actualización</span> 00 Diciembre 0000 00:00:00</p>
+		</div>
+		<div class="row">
+			<div class="col-9">
+				<div class="row bg-gray">
+					<div class="col noPad">
+						<div class="indicador">
+							<img src="img/time.svg" alt="" />
+							<div class="showData">
+								<p>Tiempo promedio cola</p>
+								<h3>00:00:00</h3>
+							</div>
+						</div>
+						<div class="indicadorSub">
+							<img src="img/truck-01.svg" alt="" />
+							<div class="showDataSub">
+								<p>Camiones en cola</p>
+								<h4>000</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col noPad">
+						<div class="indicador" id="borderside">
+							<img src="img/time.svg" alt="" />
+							<div class="showData">
+								<p>Tiempo promedio Servicio</p>
+								<h3>00:00:00</h3>
+							</div>
+						</div>
+						<div class="indicadorSub">
+							<img src="img/truck-01.svg" alt="" />
+							<div class="showDataSub">
+								<p>Camiones en patio</p>
+								<h4>000</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col noPad">
+						<div class="indicador">
+							<img src="img/time.svg" alt="" />
+							<div class="showData">
+								<p>Más de 50 miutos</p>
+								<h3>00 <span>de</span> 00</h3>
+							</div>
+						</div>
+						<div class="indicadorSub">
+							<img src="img/truck-01.svg" alt="" />
+							<div class="showDataSub">
+								<p>Porcentaje de Camiones</p>
+								<h4>000%</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="box">
+						<div class="box-in">
+							<h3><img src="img/truck-clock.svg" alt="" /> Llegada de Camiones</h3>
+							<table class="timeTruck">
+								<thead>
+							        <tr>
+										<th>Especie</th>
+										<th>&nbsp</th>
+										<th>Largo</th>
+										<th>15 min.</th>
+										<th>30 min.</th>
+										<th>45 min.</th>
+										<th>60 min.</th>
+									</tr>
+							    </thead>
+							    <tbody>
+							        <tr class="clickable" data-toggle="collapse" id="001" data-target=".001collapsed">
+							            <td class="especie"><i class="fa fa-plus-circle"></i> Pino</td>
+							            <td>-</td>
+							            <td>000 mts</td>
+							            <td>000</td>
+										<td>000</td>
+										<td>000</td>
+										<td>000</td>
+							        </tr>
+							        <tr class="collapse out budgets 001collapsed compra">
+							            <td>Compra</td>
+							            <td>KK-KK-00</td>
+							            <td>000 mts</td>
+							            <td>000</td>
+							            <td>000</td>
+							            <td>000</td>
+							            <td>000</td>
+							        </tr>
+							        <tr class="collapse out budgets 001collapsed propio">
+							            <td>Propio</td>
+							            <td>KK-KK-00</td>
+										<td>000 mts</td>
+							            <td>000</td>
+							            <td>000</td>
+							            <td>000</td>
+							            <td>000</td>
+							        </tr>
+							
+							        <tr class="clickable" data-toggle="collapse" id="002" data-target=".002collapsed">
+							            <td class="especie"><i class="fa fa-plus-circle"></i> Globulus</td>
+							            <td>-</td>
+							            <td>000 mts</td>
+							            <td>000</td>
+							            <td>000</td>
+							            <td>000</td>
+							            <td>000</td>
+							        </tr>
+							        <tr class="collapse out budgets 002collapsed compra">
+							            <td>Compra</td>
+							            <td>KK-KK-00</td>
+							            <td>000 mts</td>
+							            <td>000</td>
+							            <td>000</td>
+							            <td>000</td>
+							            <td>000</td>
+							        </tr>
+							        <tr class="collapse out budgets 002collapsed propio">
+							            <td>Propio</td>
+							            <td>KK-KK-00</td>
+							            <td>000 mts</td>
+							            <td>000</td>
+							            <td>000</td>
+							            <td>000</td>
+							            <td>000</td>
+							        </tr>
+									
+									<tr class="clickable" data-toggle="collapse" id="003" data-target=".003collapsed">
+									    <td class="especie"><i class="fa fa-plus-circle"></i> Nitens</td>
+									    <td>-</td>
+									    <td>000 mts</td>
+									    <td>000</td>
+									    <td>000</td>
+									    <td>000</td>
+									    <td>000</td>
+									</tr>
+									<tr class="collapse out budgets 003collapsed compra">
+									    <td>Compra</td>
+									    <td>KK-KK-00</td>
+									    <td>000 mts</td>
+									    <td>000</td>
+									    <td>000</td>
+									    <td>000</td>
+									    <td>000</td>
+									</tr>
+									<tr class="collapse out budgets 003collapsed propio">
+									    <td>Propio</td>
+									    <td>KK-KK-00</td>
+									    <td>000 mts</td>
+									    <td>000</td>
+									    <td>000</td>
+									    <td>000</td>
+									    <td>000</td>
+									</tr>
+							    </tbody>
+							</table>
+						</div>
+					</div>
+					<div class="box">
+						<div class="box-in">
+							<h3><i class="fa fa-info-circle"></i> Estado de Lineas</h3>
+							<ul class="state">
+								<li>L1 <i class="fa fa-check-circle"></i></li>
+								<li>L2 <i class="fa fa-times-circle"></i></li>
+								<li>L3 <i class="fa fa-question-circle"></i></li>
+							</ul>
+						</div>
+						<div class="box-in">
+							<h3><img src="img/geo.svg" alt="" /> Mapa de Calor</h3>
+							<div>mapa</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="alertTrucks">
+					<div class="trucks"id="alertCT"> <!--  amarillo - id="warningCT"  rojo - id="alertCT" -->
+						<img src="img/alert-truck.svg" alt="Alerta Camiones 1 Hora" />
+						<div class="alertTruckshour">
+							<p>Llegada Camiones en 1 Hora</p>
+							<h2>000</h2>
+						</div>
+					</div>
+					<div class="alertWar" id="warn">
+						<div class="alertText">
+							<h3>Sed condimentum dictum justo, sed laoreet velit.</h3>
+							<p>Mauris risus magna, maximus ut posuere non, vestibulum et orci. In nec faucibus ipsum.</p>
+						</div>
+					</div>
+					<div class="alertWar">
+						<div class="alertText">
+							<h3>Sed condimentum dictum justo, sed laoreet velit.</h3>
+							<p>Mauris risus magna, maximus ut posuere non, vestibulum et orci. In nec faucibus ipsum.</p>
+						</div>
+					</div>
+					<div class="alertWar" id="warn">
+						<div class="alertText">
+							<h3>Sed condimentum dictum justo, sed laoreet velit.</h3>
+							<p>Mauris risus magna, maximus ut posuere non, vestibulum et orci. In nec faucibus ipsum.</p>
+						</div>
+					</div>
+					<div class="alertWar">
+						<div class="alertText">
+							<h3>Sed condimentum dictum justo, sed laoreet velit.</h3>
+							<p>Mauris risus magna, maximus ut posuere non, vestibulum et orci. In nec faucibus ipsum.</p>
+						</div>
+					</div>
+					<div class="alertWar">
+						<div class="alertText">
+							<h3>Sed condimentum dictum justo, sed laoreet velit.</h3>
+							<p>Mauris risus magna, maximus ut posuere non, vestibulum et orci. In nec faucibus ipsum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </section>
+  <footer>
+  	
+  </footer>
+  
+  
+  
+  
+  <div class="overlay"></div>
+  
+    
+  
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  
+  
+  
+  <!-- jQuery CDN - Slim version (=without AJAX) -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <!-- Bootstrap JS -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+      <!-- jQuery Custom Scroller CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+  
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  
+  
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>

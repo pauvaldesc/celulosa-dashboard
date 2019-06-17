@@ -627,6 +627,9 @@ section {
 	width: 8%;
 	margin: 5px 0;
 }
+.timeTruck tbody tr td, .timeTruck thead tr th {
+	border-bottom: 4px solid #fff;
+}
 .timeTruck tbody tr.compra td {
 	background-color: rgba(255, 173, 21, .3);
 }
@@ -764,17 +767,46 @@ svg.fa-question-circle {
 	font-size: 12px;
 }
 .loadSen thead td {
-	background: #D8D8D8;
+	background: #D8D8D8!important;
+	padding: 5px;
 }
 .loadSen thead td, .loadSen tr td {
 	text-align: right;
 }
+.loadSen tr td {
+	padding: 7.8px;
+	background: #F4F4F4;
+	color: #555;
+	border-bottom: 4px solid #fff;
+}
 .loadSen thead td:first-of-type, .loadSen tr td:first-of-type {
 	text-align: left!important;
-	width: 25%!important;
+}
+.loadSen thead td:nth-of-type(2), .loadSen tr td:nth-of-type(2) {
+	text-align: left!important;
 }
 .loadSen tr td svg {
-	font-size: 8px;
+	font-size: 12px;
+	padding: 0 0 1px 0;
+	color: #A7D129;
+}
+.loadSen tr td svg.almost {
+	color: #E9B528;
+}
+.tableCancha .col-4 {
+	padding: 0!important;
+}
+.mapscancha {
+	width: 810px;
+	height: 317px;
+	border: 1px solid #333;
+	margin: 31px 0 0 22px;
+	padding: 0 0 0 34px;
+}
+.colcancha {
+	width: 29%;
+	float: left;
+	margin: 40px 10px 0 10px;
 }
  /* ==========================================================================
    Helper classes

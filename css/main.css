@@ -799,14 +799,53 @@ svg.fa-question-circle {
 .mapscancha {
 	width: 810px;
 	height: 317px;
-	border: 1px solid #333;
 	margin: 31px 0 0 22px;
-	padding: 0 0 0 34px;
+	padding: 0 0 0 40px;
 }
 .colcancha {
-	width: 29%;
+	width: 24%;
 	float: left;
-	margin: 40px 10px 0 10px;
+	margin: 45px 12px 0 12px;
+	padding: 0;
+}
+.colcancha:nth-of-type(3) {
+	width: 38%;
+}
+.colcancha li {
+	float: left;
+	width: 30px;
+	list-style: none;
+	height: 40px;
+	margin: 3px;
+}
+.colcancha li button {
+	width: 30px;
+	list-style: none;
+	border-radius: 10px;
+	border: 2px solid #979797;
+	background: #d8d8d8;
+	height: 40px;
+	display: block;
+}
+.colcancha li button:hover {
+	background-color: #BCBCBC;
+	border-color: #979797;
+}
+.colcancha li.empty {
+	background: none;
+	border: none;
+}
+.tooltip-inner {
+	background: #fff!important;
+	width: 180px;
+	height: 155px;
+	color: #888;
+	box-shadow: 0 0 5px #ccc;
+	border-radius: 10px!important;
+}
+.tooltip .arrow:focus{
+	border: 1px solid lime!important;
+	background: fuchsia!important;
 }
  /* ==========================================================================
    Helper classes

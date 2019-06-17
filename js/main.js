@@ -45,6 +45,7 @@ $(document).ready(function () {
         table.rows('.parent').nodes().to$().find('td:first-child').trigger('click');
     });
 	
-	
-	
 });
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

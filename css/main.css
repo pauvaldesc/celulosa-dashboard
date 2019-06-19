@@ -839,13 +839,36 @@ svg.fa-question-circle {
 	background: #fff!important;
 	width: 180px;
 	height: 155px;
-	color: #888;
+	color: #555555!important;
 	box-shadow: 0 0 5px #ccc;
 	border-radius: 10px!important;
+	text-align: left;
+	padding: 20px!important;
 }
-.tooltip .arrow:focus{
-	border: 1px solid lime!important;
-	background: fuchsia!important;
+.arrow::before{
+	border-top-color: #fff!important;
+}
+.tooltip-inner h2 {
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+.tooltip-inner ul {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+.tooltip-inner ul li {
+	list-style: none;
+	margin: 4px 0;
+}
+.colcancha li button.green {
+	background: #A7D129;
+	border-color: #A7D129;
+}
+.colcancha li button.yellow {
+	background: #E9B528;
+	border-color: #E9B528;
 }
  /* ==========================================================================
    Helper classes

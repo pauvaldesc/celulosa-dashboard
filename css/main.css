@@ -398,7 +398,7 @@ section {
 	margin: 2% auto;
 }
 .bg-gray {
-	background: #f0f0f0;
+	background: #ccc;
 	padding: 20px;
 	border-radius: 10px;
 	margin-bottom: 10px;
@@ -643,10 +643,10 @@ section {
 	width: 21%;
 }
 .timeTruck thead tr th:nth-of-type(2), .timeTruck tbody tr td:nth-of-type(2) {
-	width: 27%;
+	width: 21%;
 }
-.timeTruck thead tr th:nth-of-type(3), .timeTruck tbody tr td:nth-of-type(3) {
-	width: 16%;
+/*.timeTruck thead tr th:nth-of-type(3), .timeTruck tbody tr td:nth-of-type(3) {
+	width: 16%;*/
 }
 .state {
 	padding: 0;

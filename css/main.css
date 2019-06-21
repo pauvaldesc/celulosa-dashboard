@@ -580,6 +580,7 @@ section {
 	box-shadow: 0 0 5px #ccc;
 	border-radius: 10px;
 	margin-bottom: 20px;
+	height: auto;
 }
 .box:first-of-type {
 	margin-right: 20px;
@@ -648,15 +649,15 @@ section {
 /*.timeTruck thead tr th:nth-of-type(3), .timeTruck tbody tr td:nth-of-type(3) {
 	width: 16%;*/
 }
-.state {
-	padding: 0;
-	margin: 0;
+.stateLin {
 	height: 30px;
+    padding: 0 0 30px 0;
+    margin: 0 auto;
 	line-height: 0;
 	list-style: none;
 	color: #666;
 }
-.state li {
+.stateLin li {
 	width: 30%;
 	float: left;
 	text-align: center;
@@ -665,7 +666,7 @@ section {
 	display: block;
 	height: 35px;
 }
-.state li svg {
+.stateLin li svg {
 	font-size: 30px!important;
 }
 svg.fa-check-circle {

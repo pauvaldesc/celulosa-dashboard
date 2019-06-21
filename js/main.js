@@ -28,10 +28,6 @@ $(document).ready(function () {
 	    $(this).addClass('filled');
 	  }
 	})  
-	
-	var table = $('#example').DataTable({
-        'responsive': true
-    });
 
     // Handle click on "Expand All" button
     $('#btn-show-all-children').on('click', function(){

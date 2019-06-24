@@ -103,8 +103,15 @@ textarea {
 	padding: 10px;
 	height: auto;
 }
-
-
+button {
+	transition: 1s;
+}
+button.focus, button:focus {
+	box-shadow: none!important;
+}
+button:hover {
+	box-shadow: 0 0 5px #ddd;
+}
 /* Modal */
 .modal {
   display: none; /* Hidden by default */
@@ -599,6 +606,9 @@ section {
 	padding-bottom: 10px;
 	position: relative;
 }
+.box-in h3 span {
+	font-weight: lighter;
+}
 .box-in#estLinea {
 	padding-bottom: 50px;
 }
@@ -754,6 +764,10 @@ svg.fa-question-circle {
 	position: absolute;
 	right: 0;
 	bottom: 6px;
+}
+h5.modal-title span {
+	font-weight: lighter;
+	color: #666!important;
 }
 .maps {
 	width: 100%;

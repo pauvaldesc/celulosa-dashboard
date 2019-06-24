@@ -408,9 +408,9 @@ section {
 }
 .alertTrucks {
 	background: #F8F8F8;
-	padding: 0 0 20px 0;
+	padding: 0;
 	height: auto;
-	max-height: 600px;
+	max-height: 620px;
 }
 .trucks {
 	width: 100%;
@@ -564,6 +564,11 @@ section {
 	line-height: 12px;
 	font-weight: 300;
 }
+.sugerencias {
+	overflow: auto;
+	height: 500px;
+	width: 100%;
+}
 #warn {
 	background-color: #FFFCF3;
 	border-color: #E9B528;
@@ -581,6 +586,7 @@ section {
 	border-radius: 10px;
 	margin-bottom: 20px;
 	height: auto;
+	clear: both!important;
 }
 .box:first-of-type {
 	margin-right: 20px;
@@ -592,6 +598,9 @@ section {
 	border-bottom: 1px solid #eaeaea;
 	padding-bottom: 10px;
 	position: relative;
+}
+.box-in#estLinea {
+	padding-bottom: 50px;
 }
 .collapsing{
  	-webkit-transition:height .01s ease;
@@ -649,25 +658,17 @@ section {
 /*.timeTruck thead tr th:nth-of-type(3), .timeTruck tbody tr td:nth-of-type(3) {
 	width: 16%;*/
 }
-.stateLin {
-	height: 30px;
-    padding: 0 0 30px 0;
-    margin: 0 auto;
-	line-height: 0;
-	list-style: none;
-	color: #666;
+.lineasEstado {
+	padding: 0 0 40px 0;
 }
-.stateLin li {
+.lineasEstado li {
 	width: 30%;
+	padding: 0!important;
 	float: left;
+	list-style: none;
+	font-size: 30px;
+	color: #666;
 	text-align: center;
-	font-size: 25px;
-	margin: 0;
-	display: block;
-	height: 35px;
-}
-.stateLin li svg {
-	font-size: 30px!important;
 }
 svg.fa-check-circle {
 	color: #D1C900!important;

@@ -849,6 +849,14 @@ h5.modal-title span {
 .colcancha#twocanchas li {
 	width: 47%;
 }
+.colcancha#firstCancha li:nth-of-type(2) {
+	width: 60%!important;
+	margin-left: 40%;
+}
+.colcancha#firstCancha li:nth-of-type(1) {
+	width: 40%!important;
+	margin-left: 60%;
+}
 .colcancha li button {
 	width: 100%;
 	list-style: none;
@@ -862,7 +870,7 @@ h5.modal-title span {
 	background-color: #BCBCBC;
 	border-color: #979797;
 }
-.colcancha li.empty {
+.colcancha#firstcancha li.empty {
 	background: none;
 	border: none;
 	width: 30px;

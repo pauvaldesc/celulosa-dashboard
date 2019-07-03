@@ -509,7 +509,10 @@ section {
 	height: 35px;
 }
 #four .indicador img {
-	margin: 0 10px 0 0;
+	margin: 10px 10px 0 0;
+}
+#four .indicador {
+	padding: 0 10px;
 }
 .showData {
 	height: 60px;
@@ -664,6 +667,15 @@ section {
 }
 .timeTruck thead tr th:nth-of-type(2), .timeTruck tbody tr td:nth-of-type(2) {
 	width: 21%;
+}
+.timeTruck#bitacoraTime thead tr th:first-of-type, .timeTruck#bitacoraTime tbody tr td:first-of-type {
+	width: 30%;
+	font-weight: bold;
+	text-align: left;
+}
+.timeTruck#bitacoraTime thead tr th, .timeTruck#bitacoraTime tbody tr td{
+	width: 0;
+	text-align: right;
 }
 /*.timeTruck thead tr th:nth-of-type(3), .timeTruck tbody tr td:nth-of-type(3) {
 	width: 16%;*/
@@ -821,26 +833,29 @@ h5.modal-title span {
 .colcancha {
 	width: 24%;
 	float: left;
-	margin: 45px 12px 0 12px;
+	margin: 35px 12px 0 12px;
 	padding: 0;
 }
 .colcancha:nth-of-type(3) {
-	width: 38%;
+	width: 38%!important;
 }
 .colcancha li {
 	float: left;
-	width: 30px;
+	width: 100%;
 	list-style: none;
-	height: 40px;
+	height: 25px;
 	margin: 3px;
 }
+.colcancha#twocanchas li {
+	width: 47%;
+}
 .colcancha li button {
-	width: 30px;
+	width: 100%;
 	list-style: none;
 	border-radius: 10px;
 	border: 2px solid #979797;
 	background: #d8d8d8;
-	height: 40px;
+	height: 100%;
 	display: block;
 }
 .colcancha li button:hover {
@@ -850,6 +865,7 @@ h5.modal-title span {
 .colcancha li.empty {
 	background: none;
 	border: none;
+	width: 30px;
 }
 .tooltip-inner {
 	background: #fff!important;

@@ -117,7 +117,7 @@ button:hover {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 3%; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -163,6 +163,7 @@ button:hover {
 	width: 100%;
 	padding: 10px 0;
 	color: #666;
+	clear: both!important;
 }
 .modal-body form ul li label {
 	width: 170px;
@@ -189,6 +190,17 @@ input.otroSituacion {
 	border: none;
 	box-shadow: inset 0 0 5px #aaa;
 	resize: none;
+}
+.selectedSA {
+	width: auto!important;
+	padding: 10px;
+	background: #F0F0F0;
+	border-radius: 20px;
+	margin: 3px;
+	float: left;
+}
+.selectedSA a svg {
+	color: #666;
 }
  /* ==========================================================================
    Author's custom styles

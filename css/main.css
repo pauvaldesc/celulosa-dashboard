@@ -175,6 +175,9 @@ button:hover {
 	border: none;
 	box-shadow: inset 0 0 5px #aaa;
 }
+input.otroSituacion {
+	width: 55%!important;
+}
 .modal-body form ul li:nth-of-type(3) select, .modal-body form ul li:nth-of-type(4) select {
 	width: 55%;
 }

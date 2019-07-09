@@ -154,7 +154,7 @@
 				</div>
 				<!-- Modal -->
 				<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
-					<div class="modal-dialog" role="document">
+					<div class="modal-dialog" id="modalDialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
 								<h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-book"></i> Bitacora <span>- 00 mes 2019</span></h5>
@@ -182,19 +182,15 @@
 										</li>
 										<li>
 											<label for=""><i class="fa fa-bookmark"></i> Ingresa una Situación</label>
-											<select>
-												<option>Problemas con líneas de picado</option>
-												<option>Alta tasa de llegada de camiones</option>
-												<option>Alta concentración de llegada de pino</option>
-												<option>Alta concentración de llegada de euca</option>
-												<option>Alto stock en cancha</option>
-												<option>Picado restringido</option>
-												<option>Otro</option>
-											</select>
 										</li>
 										<li>
-											<div class="selectedSA">Problemas con líneas de picado <a href="javascript:;"><i class="fa fa-times"></i></a></div>
-											<div class="selectedSA">Picado restringido <a href="javascript:;"><i class="fa fa-times"></i></a></div>
+											<div class="selectedSA"><a href="javascript:;">Problemas con líneas de picado</a></div>
+											<div class="selectedSA"><a href="javascript:;">Alta tasa de llegada de camiones</a></div>
+											<div class="selectedSA"><a href="javascript:;">Alta concentración de llegada de pino</a></div>
+											<div class="selectedSA"><a href="javascript:;">Alta concentración de llegada de euca</a></div>
+											<div class="selectedSA"><a href="javascript:;">Alto stock en cancha</a></div>
+											<div class="selectedSA"><a href="javascript:;">Picado restringido</a></div>
+											<div class="selectedSA"><a href="javascript:;">Otro</a></div>
 										</li>
 										<li>
 											<label for="">Ingresa Otra Situación</label>
@@ -202,18 +198,19 @@
 										</li>
 										<li>
 											<label for=""><i class="fa fa-wrench"></i> Ingresa una Acción</label>
-											<select>
-												<option>Abrir punto de descarga provisorio</option>
-												<option>Mover/reasignar grúa</option>
-												<option>Consumir un producto específico</option>
-												<option>Pedir cambio de producto en línea de picado</option>
-												<option>Montar carros con apoyo de grúa</option>
-												<option>Activar grúa de contingencia</option>
-											</select>
 										</li>
 										<li>
-											<div class="selectedSA">Activar grúa de contingencia <a href="javascript:;"><i class="fa fa-times"></i></a></div>
-											<div class="selectedSA">Pedir cambio de producto en línea de picado <a href="javascript:;"><i class="fa fa-times"></i></a></div>
+											<div class="selectedSA"><a href="javascript:;">Abrir punto de descarga provisorio</a></div>
+											<div class="selectedSA"><a href="javascript:;">Mover/reasignar grúa</a></div>
+											<div class="selectedSA"><a href="javascript:;">Consumir un producto específico</a></div>
+											<div class="selectedSA"><a href="javascript:;">Pedir cambio de producto en línea de picado</a></div>
+											<div class="selectedSA"><a href="javascript:;">Montar carros con apoyo de grúa</a></div>
+											<div class="selectedSA"><a href="javascript:;">Activar grúa de contingencia</a></div>
+											<div class="selectedSA"><a href="javascript:;">Otro</a></div>
+										</li>
+										<li>
+											<label for="">Ingresa Otra Acción</label>
+											<input type="text" class="otroSituacion" name="" value="" />
 										</li>
 										<li>
 											<textarea placeholder="Ingresa un comentario"></textarea>

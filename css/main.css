@@ -212,6 +212,9 @@ input.otroSituacion {
 	text-decoration: none;
 	color: #fff;
 }
+.selectedSA a.active:hover {
+	background-color: #A7D129;
+}
 .selectedSA a:hover {
 	background-color: #aaa;
 	text-decoration: none;
@@ -276,7 +279,7 @@ input.otroSituacion {
 .form-input.filled {
   box-shadow: 0 2px 0 0 lightgreen;
 }
-a.btn-login {
+button.btn-login {
 	margin: 50px auto 0 auto;
 	width: 190px;
 	height: 45px;

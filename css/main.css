@@ -207,10 +207,10 @@ input.otroSituacion {
 	color: #666;
 	text-decoration: none;
 }
-.selectedSA a:hover {
+.selectedSA a:hover, .selectedSA a.active {
 	background: #A7D129;
 	text-decoration: none;
-	color: #666;
+	color: #fff;
 }
  /* ==========================================================================
    Author's custom styles

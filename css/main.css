@@ -198,7 +198,7 @@ input.otroSituacion {
 .selectedSA a {
 	width: auto!important;
 	padding: 10px;
-	background: #F0F0F0;
+	background: #ccc;
 	border-radius: 20px;
 	margin: 3px;
 	float: left;
@@ -207,8 +207,13 @@ input.otroSituacion {
 	color: #666;
 	text-decoration: none;
 }
-.selectedSA a:hover, .selectedSA a.active {
-	background: #A7D129;
+.selectedSA a.active {
+	background-color: #A7D129;
+	text-decoration: none;
+	color: #fff;
+}
+.selectedSA a:hover {
+	background-color: #aaa;
 	text-decoration: none;
 	color: #fff;
 }
@@ -766,7 +771,7 @@ svg.fa-question-circle {
 	padding: 15px 5px;
 }
 .bitacora thead td:first-of-type, .bitacora tr td:first-of-type, .bitacora thead td:nth-of-type(2), .bitacora tr td:nth-of-type(2) {
-	width: 5%!important;
+	width: 7%!important;
 	font-size: 11px;
 }
 .bitacora thead td:last-of-type, .bitacora tr td:last-of-type {

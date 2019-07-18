@@ -545,6 +545,10 @@ section {
 	border-radius: 10px;
 	margin-bottom: 10px;
 }
+#estCancha {
+	height: 100px;
+	margin-bottom: 0!important;
+}
 #four {
 	padding: 20px 10px;
 }
@@ -854,11 +858,41 @@ svg.fa-chevron-circle-up {
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	right: 25px;
+	right: 20px;
+}
+.filtros:nth-of-type(1) {
+	top: 13px;
+	right: 67px;
+}
+.filtros:nth-of-type(2) {
+	top: 55px;
 }
 .filtros li {
 	float: left;
 	margin-left: 10px;
+}
+.filtrosErase {
+	margin: 10px 0;
+	padding: 0;
+}
+.filtrosErase li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 3px;
+}
+.filtrosErase li a {
+	background: #666;
+	padding: 5px 10px;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 11px;
+	text-decoration: none;
+}
+.filtrosErase li a:hover {
+	background-color: #333;
+}
+.filtrosErase li a svg {
+	color: #fff!important;
 }
 .erase {
 	padding: 0;

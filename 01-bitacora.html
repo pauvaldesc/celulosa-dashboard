@@ -114,27 +114,6 @@
 						<li><button type="button" class="btn btn-search"><i class="fa fa-search"></i></button></li>
 					</ul>
 				</div>
-				<div class="row">
-					<div class="box statusCancha">
-						<div class="box-in">
-							<h3><i class="fa fa-info-circle"></i> Stock Actual en Cancha</h3>
-							<ul class="lineasEstado" id="cancha">
-								<li>Euca <i class="fa fa-chevron-circle-up"></i></li>
-								<li>Pino <i class="fa fa-chevron-circle-down"></i></li>
-							</ul>
-						</div>
-					</div>
-					<div class="box statusCancha">
-						<div class="box-in">
-							<h3><i class="fa fa-info-circle"></i> Estado de Lineas</h3>
-							<ul class="lineasEstado">
-								<li>L1 <i class="fa fa-check-circle"></i></li>
-								<li>L2 <i class="fa fa-times-circle"></i></li>
-								<li>L3 <i class="fa fa-question-circle"></i></li>
-							</ul>
-						</div>
-					</div>
-				</div>
 				<div class="row bg-gray" id="four">
 					<div class="col noPad">
 						<div class="indicador">
@@ -202,114 +181,38 @@
 											</select>
 										</li>
 										<li>
-											<label for="">Ingrese Estado Actual en Cancha</label>
-											<ul class="statusModal">
-												<li>Euca <i class="fa fa-chevron-circle-up"></i></li>
-												<li>Pino <i class="fa fa-chevron-circle-down"></i></li>
-											</ul>
+											<label for=""><i class="fa fa-bookmark"></i> Selecciona una Situación</label>
 										</li>
 										<li>
-											<label for="">Ingrese Estado Actual en Cancha</label>
-											<ul class="statusModal">
-												<li>L1 <i class="fa fa-check-circle"></i></li>
-												<li>L2 <i class="fa fa-times-circle"></i></li>
-												<li>L3 <i class="fa fa-check-circle"></i></li>
-											</ul>
-										</li>
-										<li class="full">
-											<div class="limitantes">
-												<h4>Limitantes de Pila</h4>
-												<div class="limPila">
-													<div>
-														<img src="img/stock.svg" alt="" />
-														<h4>Stock Pilas Astillas</h4>
-														<p>Alguna pila de astillas con nivel demasiado bajo o demasiado alto</p>
-													</div>
-													<div>
-														<img src="img/restriccion.svg" alt="" />
-														<h4>Stock Pilas Astillas</h4>
-														<p>Alguna pila de astillas con nivel demasiado bajo o demasiado alto</p>
-													</div>
-													<div>
-														<img src="img/condiciones.svg" alt="" />
-														<h4>Stock Pilas Astillas</h4>
-														<p>Alguna pila de astillas con nivel demasiado bajo o demasiado alto</p>
-													</div>
-												</div>
-											</div>
+											<div class="selectedSA"><a href="javascript:;">Problemas con líneas de picado</a></div>
+											<div class="selectedSA"><a href="javascript:;">Alta tasa de llegada de camiones</a></div>
+											<div class="selectedSA"><a href="javascript:;" class="active">Alta concentración de llegada de pino</a></div>
+											<div class="selectedSA"><a href="javascript:;">Alta concentración de llegada de euca</a></div>
+											<div class="selectedSA"><a href="javascript:;">Alto stock en cancha</a></div>
+											<div class="selectedSA"><a href="javascript:;">Picado restringido</a></div>
+											<div class="selectedSA"><a href="javascript:;">Otro</a></div>
 										</li>
 										<li>
-											<div class="bgSA">
-												<label for=""><i class="fa fa-bookmark"></i> Selecciona una Situación</label>
-												<ul class="selectedSA">
-													<li><a href="javascript:;">Problemas con líneas de picado</a></li>
-													<li><a href="javascript:;">Alta tasa de llegada de camiones</a></li>
-													<li><a href="javascript:;" class="active">Alta concentración de llegada de pino</a></li>
-													<li><a href="javascript:;">Alta concentración de llegada de euca</a></li>
-													<li><a href="javascript:;">Alto stock en cancha</a></li>
-													<li><a href="javascript:;">Picado restringido</a></li>
-													<li><a href="javascript:;">Otro</a><input type="text" class="otroSituacion" name="" value="" /></li>
-												</ul>
-											</div>
+											<label for="">Ingresa Otra Situación</label>
+											<input type="text" class="otroSituacion" name="" value="" />
 										</li>
 										<li>
-											<div class="bgSA">
-												<label for=""><i class="fa fa-wrench"></i> Selecciona una Acción</label>
-												<ul class="selectedSA">
-													<li>
-														<a href="javascript:;" class="active">Abrir punto de descarga provisorio</a>
-														<div class="actionIcon">
-															<i class="triangle-1"></i>
-															<i class="polygon-1"></i>
-															<i class="oval-1"></i>
-														</div>
-													</li>
-													<li>
-														<a href="javascript:;">Mover/reasignar grúa</a>
-														<div class="actionIcon">
-															<i class="triangle-2"></i>
-															<i class="polygon-2"></i>
-															<i class="oval-2"></i>
-														</div>
-													</li>
-													<li>
-														<a href="javascript:;">Consumir un producto específico</a>
-														<div class="actionIcon">
-															<i class="triangle-1"></i>
-															<i class="polygon-1"></i>
-															<i class="oval-2"></i>
-														</div>
-													</li>
-													<li>
-														<a href="javascript:;">Pedir cambio de producto en línea de picado</a>
-														<div class="actionIcon">
-															<i class="triangle-2"></i>
-															<i class="polygon-1"></i>
-															<i class="oval-2"></i>
-														</div>
-													</li>
-													<li>
-														<a href="javascript:;">Montar carros con apoyo de grúa</a>
-														<div class="actionIcon">
-															<i class="triangle-1"></i>
-															<i class="polygon-2"></i>
-															<i class="oval-2"></i>
-														</div>
-													</li>
-													<li>
-														<a href="javascript:;" class="inactive">Activar grúa de contingencia</a>
-														<div class="actionIcon">
-															<i class="triangle-3"></i>
-															<i class="polygon-3"></i>
-															<i class="oval-3"></i>
-														</div>
-													</li>
-													<li><a href="javascript:;">Otro</a><input type="text" class="otroSituacion" name="" value="" /></li>
-												</ul>
-											</div>
+											<label for=""><i class="fa fa-wrench"></i> Selecciona una Acción</label>
 										</li>
-										
-										<li class="full">
+										<li>
+											<div class="selectedSA"><a href="javascript:;" class="active">Abrir punto de descarga provisorio</a></div>
+											<div class="selectedSA"><a href="javascript:;">Mover/reasignar grúa</a></div>
+											<div class="selectedSA"><a href="javascript:;">Consumir un producto específico</a></div>
+											<div class="selectedSA"><a href="javascript:;">Pedir cambio de producto en línea de picado</a></div>
+											<div class="selectedSA"><a href="javascript:;">Montar carros con apoyo de grúa</a></div>
+											<div class="selectedSA"><a href="javascript:;">Activar grúa de contingencia</a></div>
+											<div class="selectedSA"><a href="javascript:;">Otro</a></div>
+										</li>
+										<li>
+											<label for="">Ingresa Otra Acción</label>
+											<input type="text" class="otroSituacion" name="" value="" />
+										</li>
+										<li>
 											<textarea placeholder="Ingresa un comentario"></textarea>
 										</li>
 									</ul>

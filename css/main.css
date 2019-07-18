@@ -127,7 +127,7 @@ button:hover {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 #modalDialog{
-    max-width: 700px!important;
+    max-width: 1100px!important;
 	margin: 0 auto!important;
 }
 
@@ -164,16 +164,18 @@ button:hover {
 }
 .modal-body form ul li {
 	list-style: none;
-	width: 100%;
+	width: 50%;
 	padding: 10px 0;
 	color: #666;
-	clear: both!important;
+	float: left;
 }
 .modal-body form ul li label {
-	width: 170px;
+	font-weight: bold;
+}
+.modal-body form ul li.full {
+	width: 100%;
 }
 .modal-body form ul li input, .modal-body form ul li select {
-	width: 35%;
 	height: 40px;
 	padding: 10px;
 	border-radius: 10px;
@@ -195,30 +197,130 @@ input.otroSituacion {
 	box-shadow: inset 0 0 5px #aaa;
 	resize: none;
 }
-.selectedSA a {
-	width: auto!important;
+.statusModal {
+	margin: 0!important;
+	padding: 0!important;
+}
+.statusModal li {
+	width: 30%!important;
+	text-align: center;
+	font-size: 25px;
+}
+.statusModal li:hover {
+	cursor: pointer;
+}
+.bgSA {
+	width: 98%;
+	padding: 20px;
+	border: 1px solid #C5C5C5!important;
+	background: #F1F1F1;
+	border-radius: 8px;
+	margin: 0 auto;
+}
+.selectedSA {
+	width: 100%;
+	height: 300px;
+	clear: both;
+	float: none;
+}
+.selectedSA li {
+	width: 100%!important;
+	height: 40px;
+	float: none!important;
+	clear: both;
+	position: relative;
+	margin: 3px 0;
+	padding: 0!important;
+}
+.selectedSA li a {
 	padding: 10px;
 	background: #ccc;
 	border-radius: 20px;
-	margin: 3px;
-	float: left;
+	display: inline-block;
 	font-size: 12px;
-	display: block;
 	color: #666;
 	text-decoration: none;
+	margin: 0 10px 0 0;
 }
-.selectedSA a.active {
+.selectedSA li a.active {
 	background-color: #A7D129;
 	text-decoration: none;
 	color: #fff;
 }
-.selectedSA a.active:hover {
+.selectedSA li a.inactive {
+	background-color: #E5E5E5;
+	text-decoration: none;
+	color: #aaa;
+}
+.selectedSA li a.active:hover {
 	background-color: #A7D129;
 }
-.selectedSA a:hover {
+.selectedSA li a:hover {
 	background-color: #aaa;
 	text-decoration: none;
 	color: #fff;
+}
+.triangle-1, .triangle-2, .triangle-3, .oval-1, .oval-2, .oval-3, .polygon-1, .polygon-2, .polygon-3 {
+	background: url('../img/triangle-1.svg') no-repeat 0 0;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+.triangle-2 {
+	background-image: url('../img/triangle-2.svg');
+}
+.triangle-3 {
+	background-image: url('../img/triangle-3.svg');
+}
+.oval-1 {
+	background-image: url('../img/oval-1.svg');
+}
+.oval-2 {
+	background-image: url('../img/oval-2.svg');
+}
+.oval-3 {
+	background-image: url('../img/oval-3.svg');
+}
+.polygon-1 {
+	background-image: url('../img/polygon-1.svg');
+}
+.polygon-2 {
+	background-image: url('../img/polygon-2.svg');
+}
+.polygon-3 {
+	background-image: url('../img/polygon-3.svg');
+}
+.actionIcon {
+	position: absolute;
+	right: 0;
+	top: 6px;
+}
+.limitantes {
+	width: 100%;
+	height: auto!important;
+	border: 1px solid #E0DDB7;
+	background: #FFFEF1;
+	padding: 10px;
+	border-radius: 8px;
+}
+.limitantes h4 {
+	font-size: 15px;
+}
+.limPila {
+	width: 100%;
+	height: 90px;
+	clear: both;
+	float: none;
+	margin: 0 0 0 3%;
+}
+.limPila div{
+	width: 29%;
+	float: left;
+	margin: 1%;
+}
+.limPila div img {
+	float: left;
+	margin: 0 10px 0 0;
 }
  /* ==========================================================================
    Author's custom styles
@@ -648,6 +750,13 @@ section {
 .box-in#estLinea {
 	padding-bottom: 50px;
 }
+.statusCancha {
+	margin: 0 0 10px 0;
+}
+.statusCancha .box-in {
+	padding-bottom: 50px;
+	margin-bottom: 0;
+}
 .collapsing{
  	-webkit-transition:height .01s ease;
   	transition:height .01s ease
@@ -725,6 +834,9 @@ section {
 	color: #666;
 	text-align: center;
 }
+.lineasEstado#cancha li {
+	width: 45%;
+}
 svg.fa-check-circle {
 	color: #28a731!important;
 }
@@ -733,6 +845,9 @@ svg.fa-times-circle {
 }
 svg.fa-question-circle {
 	color: #aaa!important;
+}
+svg.fa-chevron-circle-up {
+	color: #EA7600;
 }
 .filtros {
 	list-style: none;

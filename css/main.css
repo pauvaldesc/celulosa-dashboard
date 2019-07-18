@@ -878,7 +878,7 @@ svg.fa-chevron-circle-up {
 .filtrosErase li {
 	display: inline-block;
 	list-style: none;
-	margin: 0 3px;
+	margin: 0 1px;
 }
 .filtrosErase li a {
 	background: #666;

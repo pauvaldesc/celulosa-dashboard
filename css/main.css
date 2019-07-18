@@ -931,8 +931,8 @@ h5.modal-title span {
 }
 .maps {
 	width: 100%;
-	height: 380px;
-	background: #f6f6f6 url('../img/map.png') no-repeat center center;
+	height: 540px;
+	background: #f6f6f6;
 	margin-bottom: 10px;
 	background-size: 100% auto;
 }
@@ -974,14 +974,13 @@ h5.modal-title span {
 }
 .mapscancha {
 	width: 810px;
-	height: 317px;
-	margin: 31px 0 0 22px;
+	margin: 0 0 0 22px;
 	padding: 0 0 0 40px;
 }
 .colcancha {
 	width: 24%;
 	float: left;
-	margin: 35px 12px 0 12px;
+	margin: 30px 12px 0 12px;
 	padding: 0;
 }
 .colcancha:nth-of-type(3) {
@@ -991,7 +990,6 @@ h5.modal-title span {
 	width: 100%;
 	list-style: none;
 	height: 25px;
-	margin: 4px 3px;
 }
 .colcancha li button {
 	width: 25px;

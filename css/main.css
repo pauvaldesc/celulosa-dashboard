@@ -242,10 +242,22 @@ input.otroSituacion {
 	text-decoration: none;
 	margin: 0 10px 0 0;
 }
+.selectedSA li a span {
+	padding: 6px 10px;
+	background: #fff;
+	border-radius: 50%;
+	font-weight: bold;
+}
 .selectedSA li a.active {
 	background-color: #A7D129;
 	text-decoration: none;
 	color: #fff;
+}
+.selectedSA li a:hover span {
+	color: #aaa;
+}
+.selectedSA li a.active span {
+	color: #A7D129;
 }
 .selectedSA li a.inactive {
 	background-color: #E5E5E5;

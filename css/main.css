@@ -937,7 +937,7 @@ svg.fa-chevron-circle-up {
 .bitacora thead td, .bitacora tr td {
 	padding: 15px 5px;
 }
-.bitacora thead td:first-of-type, .bitacora tr td:first-of-type, .bitacora thead td:nth-of-type(2), .bitacora tr td:nth-of-type(2) {
+.bitacora thead td:first-of-type, .bitacora tr td:first-of-type {
 	width: 7%!important;
 	font-size: 11px;
 }

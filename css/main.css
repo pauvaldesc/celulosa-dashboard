@@ -135,7 +135,7 @@ button:hover {
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 20px 20px 30px 20px;
   border: 1px solid #888;
   width: 80%;
 }
@@ -202,12 +202,37 @@ input.otroSituacion {
 	padding: 0!important;
 }
 .statusModal li {
-	width: 30%!important;
+	width: 20%!important;
 	text-align: center;
 	font-size: 25px;
 }
 .statusModal li:hover {
 	cursor: pointer;
+}
+.autDias {
+	width: 65%;
+	line-height: 12px;
+	background: #ccc;
+	border-radius: 12px;
+	padding: 10px 0 5px 0;
+	text-align: center!important;
+	margin: 0 auto;
+}
+.autDias h2 {
+	padding: 0;
+	margin: 0 0 5px 0;
+	line-height: 12px;
+	font-size: 20px;
+}
+.autDias span {
+	font-size: 10px;
+	line-height: 10px;
+	display: block;
+}
+#savecomment {
+	position: absolute;
+	bottom: -16px;
+	left: 15px;
 }
 .bgSA {
 	width: 98%;
@@ -846,12 +871,16 @@ section {
 	padding: 0!important;
 	float: left;
 	list-style: none;
-	font-size: 30px;
+	font-size: 25px;
 	color: #666;
 	text-align: center;
 }
+.lineasEstado#cancha {
+	width: 100%;
+	padding: 0;
+}
 .lineasEstado#cancha li {
-	width: 45%;
+	width: 25%;
 }
 svg.fa-check-circle {
 	color: #28a731!important;

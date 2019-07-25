@@ -1003,6 +1003,14 @@ svg.fa-chevron-circle-up {
 	right: 0;
 	bottom: 6px;
 }
+.addCommentCamiones {
+	position: fixed;
+	left: 0;
+	top: 50%;
+	z-index: 80;
+	height: 50px;
+	width: 200px;
+}
 h5.modal-title span {
 	font-weight: lighter;
 	color: #666!important;

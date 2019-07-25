@@ -760,6 +760,11 @@ section {
 	border-color: #E9B528;
 	background-image: url('../img/alert-yellow.svg');
 }
+#update {
+	background-color: #F4FFF1;
+	border-color: #53A543;
+	background-image: url('../img/alert-green.svg');
+}
 .box {
 	margin: 20px 0;
 	float: left;

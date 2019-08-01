@@ -1053,13 +1053,13 @@ h5.modal-title span {
 	text-align: right;
 }
 .loadSen tr td {
-	padding: 7.8px;
+	padding: 6px 12px;
 	background: #F4F4F4;
 	color: #555;
 	border-bottom: 4px solid #fff;
 }
 .loadSen thead td:first-of-type, .loadSen tr td:first-of-type {
-	text-align: left!important;
+	text-align: left;
 }
 .loadSen thead td:nth-of-type(2), .loadSen tr td:nth-of-type(2) {
 	text-align: left!important;
@@ -1071,6 +1071,10 @@ h5.modal-title span {
 }
 .loadSen tr td svg.almost {
 	color: #E9B528;
+}
+thead.nracancha td {
+	text-align: center!important;
+	font-weight: bold;
 }
 .tableCancha .col-4 {
 	padding: 0!important;

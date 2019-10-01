@@ -1438,4 +1438,213 @@ thead.nracancha td {
     }
 }
 
-
+/******************************************************************* flujo ****/
+.flujo {
+	width: 100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 710px;
+	white-space:nowrap;
+	background-color: #F1EFC3;
+}
+.especieflujo {
+	background: transparent url('../img/flujo/flow.svg') no-repeat 135px center;
+	width: 3150px;
+	height: 690px;
+	overflow: visible;
+	margin: 10px auto 0 auto;
+	position: relative;
+}
+#euca {
+	background-color: #F5F1E4;
+	height: 870px;
+}
+#euca .especieflujo {
+	background-image: url('../img/flujo/flow-euca.svg');
+	height: 850px;
+	width: 3250px;
+}
+.info {
+	position: absolute;
+	background: #fff;
+	padding: 20px 20px 10px 20px;
+	border: 1px solid #999;
+	border-radius: 10px;
+}
+#camiones {
+	left: 130px;
+	top: 110px;
+}
+#romana {
+	left: 530px;
+}
+#serfocol {
+	left: 730px;
+	bottom: 100px;
+}
+#linea1 {
+	left: 1380px;
+	top: 0;
+}
+#linea2 {
+	left: 1380px;
+	top: 180px;
+}
+#linea3 {
+	left: 1380px;
+	top: 360px;
+}
+#pilapropia {
+	left: 1850px;
+	top: 0;
+}
+#pilaexterna {
+	left: 1850px;
+	top: 370px;
+}
+#pilatotal {
+	left: 2230px;
+	top: 70px;
+}
+#consumoespecifico {
+	left: 2565px;
+	top: 70px;
+}
+#postdigestor {
+	left: 2820px;
+	top: 195px;
+}
+#euca #camiones {
+	left: 130px;
+	top: 280px;
+}
+#euca #romana {
+	left: 530px;
+	top: 170px;
+}
+#euca #linea1 {
+	left: 1380px;
+	top: 170px;
+}
+#euca #linea2 {
+	left: 1380px;
+	top: 350px;
+}
+#euca #linea3 {
+	left: 1380px;
+	top: 530px;
+}
+#euca #pilapropia {
+	left: 1850px;
+	top: 30px;
+}
+#euca #pilaexterna {
+	left: 1850px;
+	top: 480px;
+}
+#euca #pilatotal {
+	left: 2270px;
+	top: 170px;
+}
+#euca #consumoespecifico {
+	left: 2630px;
+	top: 170px;
+}
+#euca #postdigestor {
+	left: 2890px;
+	top: 307px;
+}
+.info h3 {
+	width: 100%;
+	font-size: 12px;
+	line-height: 0;
+	color: #777;
+}
+.info h2 {
+	width: 100%;
+	font-size: 16px;
+	line-height: 0;
+	color: #777;
+	margin-top: 20px;
+	font-weight: normal;
+}
+.info h2 span {
+	font-weight: bold;
+	color: #333;
+}
+.info small {
+	font-size: 11px;
+	color: #777;
+}
+.datosFlow {
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	margin: 20px auto 0 auto;
+}
+.datosFlow li {
+	display: inline-block;
+	margin: 0 10px;
+	text-align: center;
+}
+.datosFlow li h4 {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	font-size: 24px;
+}
+.datosFlow li p {
+	padding: 0;
+	margin: 0;
+	color: #aaa;
+	font-size: 12px;
+}
+.mantencion{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+.mantencion-show {
+	position: absolute;
+	top: 5px;
+	left: 400px;
+	padding: 10px;
+	background: #FFF2CF;
+	border: 1px solid #E9B528;
+	border-radius: 10px;
+	opacity: 0;
+	transition: opacity .3s ease-in-out 0s;
+}
+.mantencion:hover + .mantencion-show {
+	opacity: 1;
+}
+.mantencion-show h3 {
+	background: transparent url('../img/flujo/calendar.svg') no-repeat 0 center;
+	width: 100%;
+	height: 20px;
+	padding: 10px 0 0 25px;
+	margin: 0;
+}
+.mantencion-show ul {
+	padding: 0;
+	margin: 10px 0 0 0;
+	list-style: none;
+}
+.mantencion-show ul li {
+	font-size: 14px;
+	color: #888;
+	margin: 5px 0;
+}
+.mantencion-show ul li span {
+	font-weight: bold;
+	color: #333;
+}
+.flowPlanta .filtros {
+	right: 20px!important;
+}
+.flowPlanta .bg-gray .erase {
+	margin: 0!important;
+}

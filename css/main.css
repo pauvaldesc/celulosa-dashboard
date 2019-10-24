@@ -806,6 +806,11 @@ section {
 .box-in#estLinea {
 	padding-bottom: 50px;
 }
+.boxReport {
+	width: 48%!important;
+	margin: 0 1%;
+	position: relative;
+}
 .statusCancha {
 	margin: 0 0 10px 0;
 }
@@ -878,6 +883,63 @@ section {
 /*.timeTruck thead tr th:nth-of-type(3), .timeTruck tbody tr td:nth-of-type(3) {
 	width: 16%;*/
 }
+
+.reportTable {
+	width: 100%;
+	display: block;
+	font-size: 13px;
+	color: #555;
+}
+.reportTable thead {
+	background: #D8D8D8;
+	height: 40px;
+	padding: 0 10px;
+}
+.reportTable thead {
+	background: #D8D8D8;
+	height: 40px;
+	padding: 0 10px;
+}
+.reportTable thead tr th {
+	background: #D8D8D8;
+	height: 40px;
+	padding: 0 5px;
+	margin: 5px 0;
+	width: 8%;
+}
+.reportTable thead tr, .reportTable tbody tr {
+	margin: 3px 0!important;
+	color: #6b6b6b;
+	font-size: 12px;
+}
+.reportTable tbody tr td {
+	background: #f4f4f4;
+	height: 40px;
+	padding: 0 5px;
+	width: 8%;
+	margin: 5px 0;
+}
+.reportTable tbody tr td i {
+	
+}
+.reportTable tbody tr td, .reportTable thead tr th {
+	border-bottom: 4px solid #fff;
+}
+.reportTable tbody tr td:first-of-type, .reportTable thead tr th:first-of-type {
+	font-weight: bold;
+	padding-left: 20px;
+}
+.green {
+	color: #72C100;
+}
+.red {
+	color: #D22F2F;
+}
+.yellow {
+	color: #F3B500;
+}
+
+
 .lineasEstado {
 	padding: 0 0 40px 0;
 }
@@ -1647,4 +1709,69 @@ thead.nracancha td {
 }
 .flowPlanta .bg-gray .erase {
 	margin: 0!important;
+}
+.kpi {
+	margin: 0 0 25px 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: block;
+}
+.kpi#cincokpi li {
+	width: 18.7%;
+}
+.kpi li {
+	width: 23.5%;
+	padding: 20px 0 10px 15px;
+    border-radius: 10px;
+    background-color: #DBDBDB;
+    box-shadow: 0 0 5px #ccc;
+    margin: 0 .5%;
+    display: inline-block;
+}
+.kpi-indi {
+	clear: both;
+}
+.kpi-indi img {
+	float: left;
+	width: 35px;
+	padding: 15px 0;
+	margin: 0 15px 0 10px;
+}
+.kpi#cincokpi li .kpi-indi img {
+	margin: 0 10px 0 0;
+	width: 40px;
+}
+.kpi-content {
+	float: left;
+}
+.kpi-content h4, .kpi-content h2 {
+	margin: 0;
+	padding: 0;
+	color: rgba(0, 0, 0, .65);
+}
+.kpi-content h4 {
+	font-size: 12px;
+}
+.kpi-content h2 {
+	font-size: 35px;
+	font-weight: bold;
+}
+.kpi-content h2 span {
+	font-size: 20px!important;
+}
+.especie {
+	position: absolute;
+    top: 13px;
+    right: 10px;
+    width: 150px!important;
+}
+.kpi-yel {
+	background-color: #F3B500!important;
+}
+.kpi-red {
+	background-color: #D22F2F!important;
+}
+.kpi-gre {
+	background-color: #72C100!important;
 }

@@ -1,0 +1,322 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Tablero Atención | Abastecimiento - Astillas</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="manifest" href="site.webmanifest">
+	<!-- Place favicon.ico in the root directory -->
+	
+	<link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16" />
+	
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	
+	
+	<!-- Font Awesome JS -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+	
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  
+  <header>
+  	<button type="button" id="sidebarCollapse" class="btn menuHamburger">
+	    <i class="fas fa-bars"></i>
+	</button>
+  	<div class="container">
+  		<h1><img src="../img/arauco.svg" alt="Arauco" /></h1>
+  		<!-- Sidebar  -->
+        <nav id="sidebar">
+            <div id="dismiss">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul class="list-unstyled components">
+				<div class="profile">
+					<div class="imgProfile">
+						
+					</div>
+					<div class="datosProfile">
+						<h3>Nombre Apellido Apellido</h3>
+						<h4>Cargo</h4>
+						<!--<a href="javascript:;">Ver Perfil</a>-->
+					</div>
+				</div>
+                <li><a href="javascript:;" class="active">Camiones</a></li>
+                <!--<li><a href="#">Estado de la planta</a></li>-->
+                <li><a href="../estado-cancha.html">Estado de Cancha</a></li>
+				<li><a href="../bitacora.html">Bitácora</a></li>
+            </ul>
+        </nav>
+  		<!-- Sidebar -->
+  	</div>
+  	
+  </header>
+  <section>
+	<div class="container">
+		<div class="updateBC">
+			<ul class="breadcrumb">
+				<li><a href="javascript:;">Tablero Atención</a> / </li>
+				<li><a href="javascript:;">Reportes</a> / </li>
+				<li><a href="javascript:;">Abastecimiento</a> / </li>
+				<li><a href="javascript:;">Astillas</a></li>
+			</ul>
+			<p class="lastUpdate"><span>Ultima Actualización</span> 00 Diciembre 0000 00:00:00</p>
+		</div>
+		<div class="row">
+			<div class="col-12 flowPlanta">
+				<div class="row bg-gray">
+					<a href="javascript" class="erase"><i class="fa fa-trash-alt"></i> Borrar Filtros</a>
+					<ul class="filtros">
+						<li>
+							<select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+								<option selected>00/00/0000</option>
+								<option>01</option>
+								<option>02</option>
+							</select>
+						</li>
+						<li>
+							<select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+								<option selected>Turno 00</option>
+								<option>01</option>
+								<option>02</option>
+								<option>03</option>
+							</select>
+						</li>
+						<li><button type="button" class="btn btn-search"><i class="fa fa-search"></i></button></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="row">
+					<ul class="kpi" id="cincokpi">
+						<li class="kpi-yel">
+							<div class="kpi-indi">
+								<img src="../img/report/down.svg" alt="" />
+								<div class="kpi-content">
+									<h4>Cumpl. Pino</h4>
+									<h2>000%</h2>
+								</div>
+							</div>
+						</li>
+						<li class="kpi-red">
+							<div class="kpi-indi">
+								<img src="../img/report/down.svg" alt="" />
+								<div class="kpi-content">
+									<h4>Empresas Relacionadas</h4>
+									<h2>000%</h2>
+								</div>
+							</div>
+						</li>
+						<li class="kpi-gre">
+							<div class="kpi-indi">
+								<img src="../img/report/up.svg" alt="" />
+								<div class="kpi-content">
+									<h4>Empresas Externas</h4>
+									<h2>000%</h2>
+								</div>
+							</div>
+						</li>
+						<li class="kpi-gre">
+							<div class="kpi-indi">
+								<img src="../img/report/up.svg" alt="" />
+								<div class="kpi-content">
+									<h4>Cumpl. Globulus</h4>
+									<h2>000%</h2>
+								</div>
+							</div>
+						</li>
+						<li class="kpi-red">
+							<div class="kpi-indi">
+								<img src="../img/report/down.svg" alt="" />
+								<div class="kpi-content">
+									<h4>Cumpl. Nitens</h4>
+									<h2>000%</h2>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="row">
+					<div class="boxReport">
+						<div class="box-in">
+							<h3><img src="../img/report/wood.svg" alt="" /> Cumpl. Plan Abastecimiento Rollizos 00 Mes 0000</h3>
+							<table class="reportTable">
+								<thead>
+									<th>Especie</th>
+									<th>Plan</th>
+									<th>Real</th>
+									<th>% Cumpl.</th>
+									<th>Stock</th>
+								</thead>
+								<tbody>
+									<tr>
+										<td><i class="fa fa-circle green"></i> Especie</td>
+										<td>0000</td>
+										<td>0000</td>
+										<td>000%</td>
+										<td>000</td>
+									</tr>
+									<tr>
+										<td><i class="fa fa-circle yellow"></i> Especie</td>
+										<td>0000</td>
+										<td>0000</td>
+										<td>000%</td>
+										<td>000</td>
+									</tr>
+									<tr>
+										<td><i class="fa fa-circle red"></i> Especie</td>
+										<td>0000</td>
+										<td>0000</td>
+										<td>000%</td>
+										<td>000</td>
+									</tr>
+									<tr>
+										<td><i class="fa fa-circle green"></i> Especie</td>
+										<td>0000</td>
+										<td>0000</td>
+										<td>000%</td>
+										<td>000</td>
+									</tr>
+									<tr>
+										<td><i class="fa fa-circle yellow"></i> Especie</td>
+										<td>0000</td>
+										<td>0000</td>
+										<td>000%</td>
+										<td>000</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="boxReport">
+						<div class="box-in">
+							<h3><img src="../img/report/chart.svg" alt="" /> Cumpl. Plan Abastecimiento Rollizos 00 Mes 0000</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="boxReport">
+						<div class="box-in">
+							<h3><img src="../img/report/wood.svg" alt="" /> Cumpl. Mix 00 Mes 0000</h3>
+							<select class="custom-select mr-sm-2 especie" id="inlineFormCustomSelect">
+								<option selected>Especie - Pino</option>
+								<option>01</option>
+								<option>02</option>
+								<option>03</option>
+							</select>
+							<table class="reportTable">
+								<thead>
+									<th>Especie</th>
+									<th>Plan</th>
+									<th>Real</th>
+									<th>% Cumpl.</th>
+								</thead>
+								<tbody>
+									<tr>
+										<td><i class="fa fa-circle green"></i> Especie</td>
+										<td>0000</td>
+										<td>0000</td>
+										<td>000%</td>
+									</tr>
+									<tr>
+										<td><i class="fa fa-circle red"></i> Especie</td>
+										<td>0000</td>
+										<td>0000</td>
+										<td>000%</td>
+									</tr>
+									<tr>
+										<td><i class="fa fa-circle yellow"></i> Especie</td>
+										<td>0000</td>
+										<td>0000</td>
+										<td>000%</td>
+									</tr>
+									<tr>
+										<td><i class="fa fa-circle green"></i> Especie</td>
+										<td>0000</td>
+										<td>0000</td>
+										<td>000%</td>
+									</tr>
+									<tr>
+										<td><i class="fa fa-circle red"></i> Especie</td>
+										<td>0000</td>
+										<td>0000</td>
+										<td>000%</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="boxReport">
+						<div class="box-in">
+							<h3><img src="../img/report/chart.svg" alt="" /> Cumpl. Mix 00 Mes 0000</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </section>
+  
+  
+  
+  
+  <div class="overlay"></div>
+  
+    
+  
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  
+  
+  
+  <!-- jQuery CDN - Slim version (=without AJAX) -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <!-- Bootstrap JS -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+      <!-- jQuery Custom Scroller CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+	  
+
+  
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+  
+  	  
+<script src="../js/chart.min.js"></script>
+
+
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>

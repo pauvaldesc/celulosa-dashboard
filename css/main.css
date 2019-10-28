@@ -1775,3 +1775,13 @@ thead.nracancha td {
 .kpi-gre {
 	background-color: #72C100!important;
 }
+.submenu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.subitem {
+	padding-top: 0!important;
+	padding-bottom: 0!important;
+	margin: 0;
+}

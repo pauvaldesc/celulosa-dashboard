@@ -1510,8 +1510,8 @@ thead.nracancha td {
 	background-color: #F1EFC3;
 }
 .especieflujo {
-	background: transparent url('../img/flujo/flow.svg') no-repeat 135px center;
-	width: 3150px;
+	background: transparent url('../img/flujo/flow.svg') no-repeat 290px center;
+	width: 3350px;
 	height: 690px;
 	overflow: visible;
 	margin: 10px auto 0 auto;
@@ -1534,46 +1534,55 @@ thead.nracancha td {
 	border-radius: 10px;
 }
 #camiones {
-	left: 130px;
-	top: 110px;
+	left: 20px;
+	top: 280px;
+}
+#camionesrecep {
+	left: 450px;
+	top: 120px;
 }
 #romana {
-	left: 530px;
+	left: 930px;
+	top: 140px;
 }
 #serfocol {
-	left: 730px;
+	left: 840px;
 	bottom: 100px;
 }
 #linea1 {
-	left: 1380px;
+	left: 1510px;
 	top: 0;
 }
 #linea2 {
-	left: 1380px;
-	top: 180px;
+	left: 1510px;
+	top: 190px;
 }
 #linea3 {
-	left: 1380px;
-	top: 360px;
+	left: 1510px;
+	top: 380px;
 }
 #pilapropia {
-	left: 1850px;
+	left: 2010px;
 	top: 0;
 }
 #pilaexterna {
-	left: 1850px;
+	left: 2010px;
 	top: 370px;
 }
 #pilatotal {
-	left: 2230px;
+	right: 580px;
 	top: 70px;
 }
 #consumoespecifico {
-	left: 2565px;
+	right: 365px;
 	top: 70px;
 }
+#consumoastilla {
+	right: 635px;
+	top: 300px;
+}
 #postdigestor {
-	left: 2820px;
+	right: 20px;
 	top: 195px;
 }
 #euca #camiones {
@@ -1643,6 +1652,7 @@ thead.nracancha td {
 	list-style: none;
 	padding: 0;
 	margin: 20px auto 0 auto;
+	text-align: center;
 }
 .datosFlow li {
 	display: inline-block;
